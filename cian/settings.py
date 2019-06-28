@@ -142,14 +142,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-#Email
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.yandex.ru'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'alexmind@yandex.ru'
-EMAIL_HOST_PASSWORD = 'K466_7b_2019'
-EMAIL_USE_TLS = True
-
 try:
     from .local_settings import *
 except ImportError:
